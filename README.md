@@ -116,9 +116,14 @@ show-net/
 To create a distributable build:
 
 ```bash
-xcodebuild -project ShowNet/ShowNet.xcodeproj -scheme ShowNet -configuration Release
-cd build/Release
-zip -r ShowNet.app.zip ShowNet.app
+xcodebuild -project ShowNet/ShowNet.xcodeproj \
+    -scheme ShowNet \
+    -configuration Release \
+    CONFIGURATION_BUILD_DIR="$(pwd)/build" \
+    clean build
+
+  cd build
+  zip -r ShowNet.app.zip ShowNet.app
 ```
 
 ---
