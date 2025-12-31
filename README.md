@@ -19,7 +19,7 @@ Clicking on the info copies to the clipboard.
 
 *Menu bar interface with network toggle options*
 
-![Example image](example.png)
+<img src="example.png" alt="Example image" width="240">
 
 ## Installation
 
@@ -27,8 +27,15 @@ Clicking on the info copies to the clipboard.
 
 1. Download `ShowNet.app.zip` from the [latest release](https://github.com/yourusername/show-net/releases)
 2. Unzip and drag `ShowNet.app` to your `/Applications` folder
-3. Launch the app
-4. Look for the animated signal wave icon in your menu bar
+3. Allow the app in your Privacy & Security settings
+
+<img src="install-1.png" alt="Install instruction 1" width="240">
+
+4. Confirm ("Launch Anyway")
+
+<img src="install-2.png" alt="Install instruction 2" width="200">
+
+5. Look for the animated 'i' in your menu bar
 
 ### Option 2: Build from Source
 
