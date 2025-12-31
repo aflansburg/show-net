@@ -40,7 +40,7 @@ Clicking on the info copies to the clipboard.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/show-net.git
+git clone https://github.com/aflansburg/show-net.git
 cd show-net
 
 # Open in Xcode and build
