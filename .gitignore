@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+*.app
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.xccheckout
+*.moved-aside
+*.swp
+*~.nib
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+Packages/
+*.xcodeproj
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# IDE
+.vscode/
+.idea/
+*.swiftpm
+
+# Build artifacts
+build/
+*.app
+*.zip
