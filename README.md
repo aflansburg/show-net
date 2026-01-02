@@ -17,8 +17,6 @@ Clicking on the info copies to the clipboard.
 
 ## Screenshots
 
-*Menu bar interface with network toggle options*
-
 <img src="example.png" alt="Example image" width="240">
 
 ## Installation
@@ -62,7 +60,7 @@ open build/Release/ShowNet.app
 
 ## Usage
 
-Once installed, you'll see an animated signal wave icon in your menu bar. Click it to view:
+Once installed, you'll see an animated 'i' icon in your menu bar. Click it to view:
 
 - **Local Network Interfaces** - All active connections with their IPv4 and IPv6 addresses
 - **Public IPv4** - Your external IPv4 address (click to copy)
@@ -80,7 +78,7 @@ ShowNet uses native macOS commands to gather network information:
 
 1. **Local IPs**: Reads from `ifconfig` to display all network interfaces
 2. **Public IPs**: Uses `curl` with IPv4/IPv6 forcing to query `ifconfig.me`
-3. **Animation**: Cycles through SF Symbols to create the animated signal wave effect
+
 
 ## Permissions
 
@@ -89,20 +87,6 @@ This app requires:
 - **Network access** - to fetch your public IP addresses
 - No administrator privileges needed
 - No data collection or analytics
-
-## Troubleshooting
-
-### "Cannot verify developer" error
-Right-click the app and select "Open" instead of double-clicking. This allows you to bypass Gatekeeper for apps from unidentified developers.
-
-### App doesn't appear in menu bar
-Check System Settings > General > Login Items and ensure the app isn't hidden.
-
-### Public IP shows "Unavailable"
-This usually means:
-- Your firewall is blocking outbound HTTPS requests
-- The ifconfig.me service is temporarily down
-- You don't have internet connectivity
 
 ## Development
 
